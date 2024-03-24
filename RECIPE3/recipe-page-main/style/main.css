@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Young+Serif&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+main{
+   width: 375px;
+}
+
+/* imagen de omelette */
+.omelette{
+   width: 375px;
+}
+/*  informacion de la receta*/
+.information_recipe{
+   width: 315px;
+   margin: auto;
+  
+}
+.title{
+   font-size: 2em;
+   color: hls(24, 5%, 18%);
+   font-family: "Young Serif", serif;
+  font-weight: 400;
+  line-height: 1;
+  margin-top: 30px;;
+  padding-bottom: 20px;
+  color: hsl(30, 10%, 34%);
+}
+.description_recipe{
+   text-align: justify;
+   Font-size: 16px;
+   color: hsl(30, 10%, 34%);
+   font-family: "Outfit", sans-serif;
+   font-weight: 300;
+   line-height: 1.3;  
+   margin-bottom: 30px;
+}
+/* preparatiion time recipe */
+
+.time_recipe{
+   width: 320px;
+   margin: auto;
+   background-color: hsl(330, 100%, 98%);
+   padding-left: 40px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   border-radius: 10px;
+   
+}
+.title_recipe_time{
+   font-family: "Outfit", sans-serif;
+   font-weight: bold;
+   color: hsl(332, 51%, 32%);
+   margin-block: 20px;
+}
+.time_recipe ul li {
+  color: hsl(14, 45%, 36%); 
+  font-weight: bold;
+}
+.time_recipe ul li >p{
+   margin-bottom: 15px;
+   font-size: 20px;
+   padding-inline: 20px;
+   text-align: left; 
+   color: hsl(30, 10%, 34%);
+   font-weight: 100;
+}
+.title_bold{
+   font-family: "Outfit", sans-serif; 
+   font-weight: bold;
+   color: hsl(24, 5%, 18%);
+}
+
+/* inicio ingredients recipe  */
+
+.ingredients_recipe{
+   width: 300px;
+   Font-size: 16px;
+   margin: auto;
+}
+.ingredients_recipe ul li {
+   font-family: "Outfit", sans-serif;
+   font-size: 16px;
+   margin:10px;
+   padding: 5px;  
+}
+.title_recipe{
+   color: hsl(14, 45%, 36%);
+   margin-bottom: 20PX;
+   Font-size: 30px;
+   font-family: "Young Serif", serif;
+   font-weight: 100;
+}
+.style_line{
+   border-bottom: 1.5px dotted hsl(24, 5%, 18%);
+}
+
+/* intructions recipe */
+.instructions_recipe{
+   width: 300px;
+   margin: auto;
+   Font-size: 16px;
+}
+.instructions_recipe ol li{
+   font-family: "Outfit", sans-serif;
+   font-size: 16px;
+   font-weight: bold;
+   color: hsl(14, 45%, 36%);
+}
+.instructions_recipe ol li>p{
+   color: hsl(30, 10%, 34%);
+   font-weight: 100;
+   margin-left: 10px;
+}
+
+.instructions_recipe_list li{
+   margin: 10px;
+}
+/* section nutrition recipe */
+
+.nutrition_recipe{
+   width: 300px;
+   margin: auto;
+   
+}
+.nutrition_item{
+   display: flex;
+   justify-content: space-between;
+   padding-left: 20px;
+   padding-right: 100px;
+}
+.nutrition_item_recipe{
+   color: hsl(30, 10%, 34%);
+   font-weight: bold;
+   font-family: "Outfit", sans-serif;
+   font-size: 16px;
+}
+
+.value{
+   color: hsl(14, 45%, 36%);
+   font-weight: bold;
+   font-family: "Outfit", sans-serif;
+   font-size: 16px;
+}
+/* inicio footer de la pagina */
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+ }
+ .colors_web_using{
+    display: flex;
+    gap: 3px;
+    background-color: #222;
+    padding: 10px;
+ }
+
+
+ /* fin footer de la pagina */
+
+ @media only screen and (min-width: 376px) and (max-width: 1024px){
+   
+   /* Reglas CSS a aplicar si el ancho máximo es 1440px a mas */
+   main{
+      width: 1440px;
+      padding: 30px;
+   }
+    /* imagen de omelette */  
+   .omelette{
+      width: 100%;
+      border-radius: 30px;
+
+   }
+
+   .information_recipe{
+      width: 1300px;
+      margin: auto;
+     
+   }
+   .title{
+      font-size: 6em;
+   }
+   .description_recipe{
+      Font-size: 2em;
+      font-family: "Outfit", sans-serif;
+      font-weight: 300;
+      line-height: 1.4;  
+      margin-bottom: 30px;
+     
+      
+   }
+   
+   .time_recipe{
+      width: 1200px;
+      
+      
+   }
+   .title_recipe_time{
+      font-family: "Outfit", sans-serif;
+      font-weight: bold;
+      font-size: 3em;
+      color: hsl(332, 51%, 32%);
+      margin-block: 20px;
+   }
+   .time_recipe ul li {
+     color: hsl(14, 45%, 36%); 
+     font-weight: bold;
+     
+   }
+   .time_recipe ul li >p{
+      margin-bottom: 15px;
+      font-size: 2em;
+      padding-inline: 20px;
+      text-align: left; 
+      color: hsl(30, 10%, 34%);
+      font-weight: 100;
+   }
+   .title_bold{
+      font-family: "Outfit", sans-serif; 
+      font-weight: bold;
+      color: hsl(24, 5%, 18%);
+   }
+   /* inicio ingredients recipe  */
+
+.ingredients_recipe{
+   width: 1300px;
+   margin: auto;
+}
+.ingredients_recipe ul li {
+   font-family: "Outfit", sans-serif;
+   Font-size: 2em;
+   margin:10px;
+   padding: 5px;  
+}
+
+
+/* intructions recipe */
+.instructions_recipe{
+   width: 1300px;
+   margin: auto;
+   
+}
+.instructions_recipe ol li{
+   font-family: "Outfit", sans-serif;
+   Font-size: 2em;
+   font-weight: bold;
+   color: hsl(14, 45%, 36%);
+}
+
+/* section nutrition recipe */
+
+.nutrition_recipe{
+   width: 1300px;
+   margin: auto;
+   
+}
+
+.nutrition_item_recipe{
+   color: hsl(30, 10%, 34%);
+   font-weight: bold;
+   font-family: "Outfit", sans-serif;
+   font-size: 2em;
+}
+
+.value{
+   color: hsl(14, 45%, 36%);
+   font-weight: bold;
+   font-family: "Outfit", sans-serif;
+   font-size: 2em;
+}
+.title_recipe{
+   font-size: 3em;
+}
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px){
+   
+   /* Reglas CSS a aplicar si el ancho máximo es 1440px a mas */
+   main{
+      width: 1440px;
+      padding: 30px;
+   }
+    /* imagen de omelette */  
+   .omelette{
+      width: 100%;
+      border-radius: 30px;
+
+   }
+
+   .information_recipe{
+      width: 1300px;
+      margin: auto;
+     
+   }
+   .title{
+      font-size: 6em;
+   }
+   .description_recipe{
+      Font-size: 2em;
+      font-family: "Outfit", sans-serif;
+      font-weight: 300;
+      line-height: 1.4;  
+      margin-bottom: 30px;
+     
+      
+   }
+   
+   .time_recipe{
+      width: 1200px;
+      
+      
+   }
+   .title_recipe_time{
+      font-family: "Outfit", sans-serif;
+      font-weight: bold;
+      font-size: 3em;
+      color: hsl(332, 51%, 32%);
+      margin-block: 20px;
+   }
+   .time_recipe ul li {
+     color: hsl(14, 45%, 36%); 
+     font-weight: bold;
+     
+   }
+   .time_recipe ul li >p{
+      margin-bottom: 15px;
+      font-size: 2em;
+      padding-inline: 20px;
+      text-align: left; 
+      color: hsl(30, 10%, 34%);
+      font-weight: 100;
+   }
+   .title_bold{
+      font-family: "Outfit", sans-serif; 
+      font-weight: bold;
+      color: hsl(24, 5%, 18%);
+   }
+   /* inicio ingredients recipe  */
+
+.ingredients_recipe{
+   width: 1300px;
+   margin: auto;
+}
+.ingredients_recipe ul li {
+   font-family: "Outfit", sans-serif;
+   Font-size: 2em;
+   margin:10px;
+   padding: 5px;  
+}
+
+
+/* intructions recipe */
+.instructions_recipe{
+   width: 1300px;
+   margin: auto;
+   
+}
+.instructions_recipe ol li{
+   font-family: "Outfit", sans-serif;
+   Font-size: 2em;
+   font-weight: bold;
+   color: hsl(14, 45%, 36%);
+}
+
+/* section nutrition recipe */
+
+.nutrition_recipe{
+   width: 1300px;
+   margin: auto;
+   
+}
+
+.nutrition_item_recipe{
+   color: hsl(30, 10%, 34%);
+   font-weight: bold;
+   font-family: "Outfit", sans-serif;
+   font-size: 2em;
+}
+
+.value{
+   color: hsl(14, 45%, 36%);
+   font-weight: bold;
+   font-family: "Outfit", sans-serif;
+   font-size: 2em;
+}
+.title_recipe{
+   font-size: 3em;
+}
+} 
+@media only screen and (min-width: 1281px){
+   
+   /* Reglas CSS a aplicar si el ancho máximo es 1440px a mas */
+   main{
+      width: 1440px;
+      padding: 30px;
+   }
+    /* imagen de omelette */  
+   .omelette{
+      width: 100%;
+      border-radius: 30px;
+
+   }
+
+   .information_recipe{
+      width: 1300px;
+      margin: auto;
+     
+   }
+   .title{
+      font-size: 6em;
+   }
+   .description_recipe{
+      Font-size: 2em;
+      font-family: "Outfit", sans-serif;
+      font-weight: 300;
+      line-height: 1.4;  
+      margin-bottom: 30px;
+     
+      
+   }
+   
+   .time_recipe{
+      width: 1200px;
+      
+      
+   }
+   .title_recipe_time{
+      font-family: "Outfit", sans-serif;
+      font-weight: bold;
+      font-size: 3em;
+      color: hsl(332, 51%, 32%);
+      margin-block: 20px;
+   }
+   .time_recipe ul li {
+     color: hsl(14, 45%, 36%); 
+     font-weight: bold;
+     
+   }
+   .time_recipe ul li >p{
+      margin-bottom: 15px;
+      font-size: 2em;
+      padding-inline: 20px;
+      text-align: left; 
+      color: hsl(30, 10%, 34%);
+      font-weight: 100;
+   }
+   .title_bold{
+      font-family: "Outfit", sans-serif; 
+      font-weight: bold;
+      color: hsl(24, 5%, 18%);
+   }
+   /* inicio ingredients recipe  */
+
+.ingredients_recipe{
+   width: 1300px;
+   margin: auto;
+}
+.ingredients_recipe ul li {
+   font-family: "Outfit", sans-serif;
+   Font-size: 2em;
+   margin:10px;
+   padding: 5px;  
+}
+
+
+/* intructions recipe */
+.instructions_recipe{
+   width: 1300px;
+   margin: auto;
+   
+}
+.instructions_recipe ol li{
+   font-family: "Outfit", sans-serif;
+   Font-size: 2em;
+   font-weight: bold;
+   color: hsl(14, 45%, 36%);
+}
+
+/* section nutrition recipe */
+
+.nutrition_recipe{
+   width: 1300px;
+   margin: auto;
+   
+}
+
+.nutrition_item_recipe{
+   color: hsl(30, 10%, 34%);
+   font-weight: bold;
+   font-family: "Outfit", sans-serif;
+   font-size: 2em;
+}
+
+.value{
+   color: hsl(14, 45%, 36%);
+   font-weight: bold;
+   font-family: "Outfit", sans-serif;
+   font-size: 2em;
+}
+.title_recipe{
+   font-size: 3em;
+}
+}  
+
+
