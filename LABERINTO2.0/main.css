@@ -1,0 +1,99 @@
+.game-container {
+    display: grid;
+    grid-template-columns: repeat(10, 50px);
+    grid-gap: 2px;
+}
+
+.wall {
+    background-color: #8B4513;
+    width: 50px;
+    height: 50px;
+}
+
+.path,
+.player,
+.reward {
+    width: 50px;
+    height: 50px;
+}
+
+.player {
+    background-size: cover;
+    background-image: url('player-image-url.jpg');
+    /* Reemplaza con la URL de tu imagen */
+}
+
+.reward {
+    background-size: cover;
+    background-image: url('reward-image-url.jpg');
+    /* Reemplaza con la URL de tu imagen */
+}
+
+body {
+    background: black;
+    color: white;
+    font-family: Arial;
+}
+
+#grid {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-width: 1000px;
+    min-height: 600px;
+    left: 20%;
+}
+
+.block {
+    border: 1px solid black;
+    position: absolute;
+    margin: 1px;
+    width: 50px;
+    height: 50px;
+    font-size: 8px;
+    display: block;
+    background: #666;
+    color: white;
+    -webkit-transition: background-color 100ms linear;
+    -ms-transition: background-color 100ms linear;
+    transition: background-color 100ms linear;
+}
+
+.block.generated {
+    background: #fff;
+}
+
+
+.block.generated.visited {
+    background: #eef;
+}
+
+.block.generated.visited.path {
+    background: #aaf;
+}
+
+
+.block.current.error {
+    background: #f00 !important;
+}
+
+.block.left {
+    border-left: 1px solid transparent;
+}
+
+.block.right {
+    border-right: 1px solid transparent;
+}
+
+.block.bottom {
+    border-bottom: 1px solid transparent;
+}
+
+.block.top {
+    border-top: 1px solid transparent;
+}
+
+a,
+a:visited {
+    color: green;
+}
